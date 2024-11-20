@@ -1,0 +1,22 @@
+{
+    "domain": "tamburi",
+    "name": "Tamburi - Pakete. Versenden. Empfangen.",
+    "after_dependencies": [
+      "recorder"
+    ],
+    "codeowners": [
+      "@PetziAt"
+    ],
+    "config_flow": true,
+    "dependencies": [
+      "recorder"
+    ],
+    "documentation": "https://github.com/PetziAt/Home-Assistant-Tamburi",
+    "iot_class": "cloud_polling",
+    "issue_tracker": "https://github.com/PetziAt/Home-Assistant-Tamburi/issues",
+    "requirements": [
+        "requests",
+        "qrcode"
+    ],
+    "version": "0.1"
+  }
